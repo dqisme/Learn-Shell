@@ -1,0 +1,3 @@
+echo -n ......
+echo OK!
+echo -e "\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a hello\bworld\c\t"
