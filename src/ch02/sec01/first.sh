@@ -1,2 +1,7 @@
 clear
-echo "Knowledge is Power"
+message="Knowledge is Power"
+
+echoMessage() {
+	echo $message
+}
+
