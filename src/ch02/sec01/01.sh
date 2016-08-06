@@ -1,7 +1,4 @@
-clear
-message="Knowledge is Power"
-
 echoMessage() {
-	echo $message
+	echo "Knowledge is Power"
 }
 
