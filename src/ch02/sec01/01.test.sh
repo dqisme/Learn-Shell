@@ -1,8 +1,8 @@
-source `dirname $1`/first.sh
+source `dirname $1`/01.sh
 
 testEchoMessage() {
 	echo 'Just a simple message display'
-	echoMessage=`echoMessage`
+	actualMessage=`echoMessage`
 	expectedMessage='Knowledge is Power'
-	assertEquals "$expectedMessage" "$echoMessage"
+	assertEquals "$actualMessage" "$expectedMessage"
 }
