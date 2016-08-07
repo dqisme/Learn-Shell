@@ -1,1 +1,3 @@
-expr 6 + 3
+expressCalculation() {
+	echo `expr 6 + 3`
+}
